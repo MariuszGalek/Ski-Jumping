@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./src/calculateStylePoints.test.js",
+    "test": "mocha ./src/calculateTotalPoints.test.js",
     "test:watch": "onchange \"./*.js\" -- npm test"
   },
   "keywords": [],
