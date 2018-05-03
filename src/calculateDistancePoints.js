@@ -33,7 +33,7 @@ const calculateDistancePoints = (distance, hillSize, kPoint) => {
 			totalPoints = kPointDistance * 1.2
 	}
 
-	return totalPoints + basicPoints;
+	return (totalPoints + basicPoints).toFixed(1);
 };
 
 module.exports = calculateDistancePoints;
